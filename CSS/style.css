@@ -620,10 +620,6 @@ body {
         display: block;
     }
 
-    .card {
-        scale: 0.9;
-    }
-
     .main-bar {
         width: 70%;
         justify-content: space-between;
