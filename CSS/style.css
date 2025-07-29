@@ -85,7 +85,7 @@ body {
 }
 
 .small-links li a {
-    font-size: 13px;
+    font-size: 15px;
     color: white;
     text-decoration: none;
 }
@@ -219,7 +219,7 @@ body {
     padding: 30px 0px;
 }
 
-.offer_cards {
+.offer_cards center{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-items: center !important;
@@ -604,6 +604,13 @@ body {
     .main_footer {
         border-right: none;
     }
+
+    .offer_cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+        align-items: center !important;
+        gap: 20px;
+    }
 }
 
 
@@ -713,5 +720,13 @@ body {
 
     .inner_span2 {
         display: none;
+    }
+
+    .offer_cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center;
+        gap: 20px;
     }
 }
